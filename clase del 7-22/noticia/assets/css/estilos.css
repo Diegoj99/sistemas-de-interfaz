@@ -28,19 +28,22 @@ body {
     background-color: rgb(186, 187, 253);
     width: 25%;
     float: right;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: 1%;
-    font-size: 20px;
+    font-size: 19px;
     font-family: Helvetica;
+    text-decoration: none;
 }
 
 aside :hover {
     background-color: rgb(191, 137, 212);
     cursor: pointer;
     transition:background-color 1s ;
-    border-radius: 10px;
-    font-size: 20px;
+    border-radius: 15px;
+    font-size: 19px;
+    padding: 1%;
     font-family: Helvetica;
+    text-decoration: none;
 }
 
 .comida-mexicana {

@@ -5,16 +5,48 @@
     width: 10%;
 }
 body {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(201, 193, 193);
     font-family: Arial, Helvetica, sans-serif;
-    padding: 30px;
-    margin: 30px;
+    padding: 20px;
+    margin: 20px;
 }
- .main ¨{
+ .main {
     color: #333333;
     font-size: 14px;
     font-family: Helvetica;
  }   
+
+ article {
+     background-color: rgb(255, 255, 255);
+     width: 60%;
+     float: left;
+     border-radius: 10px;
+     padding: 5%;
+ }
+
+ aside {
+    background-color: rgb(186, 187, 253);
+    width: 25%;
+    float: right;
+    border-radius: 10px;
+    padding: 1%;
+    font-size: 20px;
+    font-family: Helvetica;
+}
+
+aside :hover {
+    background-color: rgb(191, 137, 212);
+    cursor: pointer;
+    transition:background-color 1s ;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Helvetica;
+}
+
+.comida-mexicana {
+    width: 90%;
+}
+
 
  .foto_principal {
     width: 100%;
@@ -37,7 +69,7 @@ h2 {
 }
 
 blockquote {
-    color: #333333;
+    color: #3b3939;
     font-size: 24px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     border-left: 15px #331183 solid;
@@ -52,8 +84,7 @@ p {
 }
 #envoltorio {
     text-decoration: none;
-    background-color: rgba(87, 77, 77, 0.45);
-    padding: 30px;
+    padding: 15px;
     width: 65%;
     margin-top: 0px;
     margin-right: auto;
@@ -85,8 +116,9 @@ p {
     font-weight: bold;
     }
     #botonesarriba ul li a:hover {
-    background-color: rgb(68, 24, 170);
+    background-color: rgb(115, 10, 177);
     border-radius: 4px;
+    width: 40%;
     cursor: pointer;
     transition:background-color 1s ;
         }
